@@ -1,0 +1,2 @@
+# minergate
+挖矿
