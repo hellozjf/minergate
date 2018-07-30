@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 RUN apt update \
-	&& apt install wget libxau6 libxdmcp6 libxcb1 libpcre16-3 \
+	&& apt install -y wget libxau6 libxdmcp6 libxcb1 libpcre16-3 \
 	&& wget https://minergate.com/download/ubuntu-cli \
 	&& dpkg -i ubuntu-cli
 
